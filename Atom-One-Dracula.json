@@ -1,0 +1,105 @@
+{
+	"name": "One Dark Dracula",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#282c34",
+		"editor.foreground": "#f8f8f2",
+		"editorCursor.foreground": "#ff79c6",
+		"editor.lineHighlightBackground": "#44475a",
+		"editorLineNumber.foreground": "#6272a4",
+		"editor.selectionBackground": "#44475a",
+		"editor.inactiveSelectionBackground": "#44475a99",
+		"editor.selectionHighlightBackground": "#44475a",
+		"editor.wordHighlightBackground": "#44475a",
+		"editor.wordHighlightStrongBackground": "#44475a",
+		"activityBar.background": "#282c34",
+		"sideBar.background": "#282c34",
+		"sideBar.foreground": "#f8f8f2",
+		"sideBar.border": "#44475a",
+		"sideBarTitle.foreground": "#f8f8f2",
+		"sideBarSectionHeader.background": "#282c34",
+		"sideBarSectionHeader.foreground": "#f8f8f2",
+		"tab.activeBackground": "#282c34",
+		"tab.activeForeground": "#f8f8f2",
+		"tab.inactiveBackground": "#21252b",
+		"tab.inactiveForeground": "#6272a4",
+		"tab.border": "#282c34",
+		"titleBar.activeBackground": "#282c34",
+		"titleBar.activeForeground": "#f8f8f2",
+		"titleBar.inactiveBackground": "#21252b",
+		"titleBar.inactiveForeground": "#6272a4"
+	},
+	"tokenColors": [
+		{
+			"scope": ["comment", "punctuation.definition.comment"],
+			"settings": {
+				"foreground": "#6272a4",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"constant",
+				"entity.name.constant",
+				"variable.other.constant",
+				"variable.language"
+			],
+			"settings": {
+				"foreground": "#bd93f9"
+			}
+		},
+		{
+			"scope": [
+				"variable",
+				"string constant.other.placeholder",
+				"meta.structure.dictionary.json string.quoted.double.json"
+			],
+			"settings": {
+				"foreground": "#f8f8f2"
+			}
+		},
+		{
+			"scope": ["entity", "entity.name", "support.class", "support.type"],
+			"settings": {
+				"foreground": "#8be9fd"
+			}
+		},
+		{
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#ff79c6"
+			}
+		},
+		{
+			"scope": "storage",
+			"settings": {
+				"foreground": "#ff79c6"
+			}
+		},
+		{
+			"scope": ["storage.type", "storage.modifier"],
+			"settings": {
+				"foreground": "#bd93f9"
+			}
+		},
+		{
+			"scope": "string",
+			"settings": {
+				"foreground": "#f1fa8c"
+			}
+		},
+		{
+			"scope": ["support", "meta.property-name", "variable.other"],
+			"settings": {
+				"foreground": "#50fa7b"
+			}
+		},
+		{
+			"scope": "invalid",
+			"settings": {
+				"foreground": "#ff79c6",
+				"fontStyle": "underline"
+			}
+		}
+	]
+}

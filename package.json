@@ -1,0 +1,20 @@
+{
+  "name": "one-dark-dracula-theme",
+  "displayName": "One Dark Dracula Theme",
+  "description": "A custom theme that combines Atom One Dark with Dracula Soft",
+  "version": "0.0.1",
+  "publisher": "your-name",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "One Dark Dracula",
+        "uiTheme": "vs-dark",
+        "path": "./one-dark-dracula.json"
+      }
+    ]
+  }
+}
